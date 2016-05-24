@@ -1,5 +1,5 @@
-var es2015node4 = require("babel-preset-es2015-node4");
-var es2015node4loose = require("../index");
+const es2015node4 = require("babel-preset-es2015-node4");
+const es2015node4loose = require("../index");
 
 function getModifiedPluginFromName (name) {
 	var originalPlugin = require("babel-plugin-" + name);
@@ -17,7 +17,6 @@ function assertPluginIsLoose (plugin) {
 	plugin.should.be.instanceof(Array).and.have.lengthOf(2);
 	plugin[1].should.eql({ loose: true });
 }
-
 
 describe("babel-preset-es2015-node4-loose", function () {
 
