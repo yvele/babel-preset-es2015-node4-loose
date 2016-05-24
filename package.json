@@ -19,7 +19,10 @@
     "index.js"
   ],
   "main": "index.js",
-  "repository": "https://github.com/yvele/babel-preset-es2015-node4-loose",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/yvele/babel-preset-es2015-node4-loose"
+  },
   "scripts": {
     "test": "mocha test/index.js --require should"
   },
