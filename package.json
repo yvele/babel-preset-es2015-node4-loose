@@ -1,0 +1,37 @@
+{
+  "name": "babel-preset-es2015-node4-loose",
+  "version": "1.0.0",
+  "description": "Babel preset for all es2015-node4 plugins, with loose mode enabled where available.",
+  "keywords": [
+    "babel",
+    "babel-preset",
+    "babel-preset-es2015",
+    "babel-preset-es2015-node4",
+    "loose"
+  ],
+  "homepage": "https://github.com/yvele/babel-preset-es2015-node4-loose",
+  "bugs": {
+    "url": "https://github.com/yvele/babel-preset-es2015-node4-loose/issues"
+  },
+  "license": "MIT",
+  "author": "Merlicco Yves <merlicco@gmail.com>",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/yvele/babel-preset-es2015-node4-loose",
+  "scripts": {
+    "test": "mocha test/index.js --require should"
+  },
+  "dependencies": {
+    "modify-babel-preset": "^2.0.2"
+  },
+  "peerDependencies": {
+    "babel-preset-es2015-node4": "*"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-node4": "^2.1.0",
+    "mocha": "^2.5.2",
+    "should": "^8.4.0"
+  }
+}
