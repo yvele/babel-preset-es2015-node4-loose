@@ -37,14 +37,14 @@ the version you need.
 ### Via CLI
 
 ```sh
-$ babel script.js --presets es2015-loose-loose
+$ babel script.js --presets es2015-node4-loose
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["es2015-loose-loose"]
+  presets: ["es2015-node4-loose"]
 })
 ```
 
